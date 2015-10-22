@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "eslint.enable": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "frameworks/cocos2d-x/**": true,
+    "frameworks/runtime-src/**": true,
+    "src/app.*": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "frameworks/cocos2d-x/**": true,
+    "frameworks/runtime-src/**": true,
+    "src/app.*": true,
+    "publish/**": true
+  }
+}

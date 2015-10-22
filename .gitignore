@@ -73,3 +73,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+frameworks/**
+src/app.*
+typings/**
+publish/**

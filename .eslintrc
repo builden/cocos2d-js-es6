@@ -1,0 +1,16 @@
+{
+  "extends": "eslint-config-airbnb",
+
+  "rules": {
+    "id-length": [2, {"properties": "never", "exceptions": ["x", "y", "_", "$", "s", "e", "i", "j", "k"]}],
+    "no-console": 0
+  },
+
+  "globals": {
+    "cc": true
+  },
+
+  "env": {
+    "browser": true
+  }
+}
